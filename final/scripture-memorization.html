@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Scripture Memorization</title>
+
+    <link rel="stylesheet" href="scripture-memorization.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+
+<body class="bg-dark body">
+
+<nav class="navbar navbar-light bg-primary">
+    <span class="navbar-brand mb-0 h1">Scripture Memorization</span>
+</nav>
+
+<div class="container">
+
+    <div class="row instruction-row">
+        <div class="col-12">
+            <div>Instructions</div>
+            Read the Bible verse carefully, then select how many words you want to remove and click "Remove." <br />
+            Read the Bible verse again and see how many of the blanks you are able to fill in!
+        </div>
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="col-sm-6 col-md-5 control-section">
+            <label for="NumberOfWordsToRemove">Words to Remove</label>
+            <input id="NumberOfWordsToRemove" type="number"/>
+            <button id="RemoveWordButton" class="btn btn-primary">Remove</button>
+        </div>
+    </div>
+
+    <div id="BibleVerse">
+        <!-- Text added by JS -->
+    </div>
+</div>
+
+
+<script type="text/javascript" src="scripture-memorization.js"></script>
+
+</body>
+
+</html>
+

@@ -1,0 +1,37 @@
+nav {
+    margin-bottom: 3em;
+}
+
+.instruction-row {
+    font-size: larger;
+    line-height: 1.5em;
+    margin-bottom: 3em;
+}
+
+.control-section {
+    border: solid 0.25em;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+.input-wrapper {
+    margin-bottom: 1em;
+}
+
+label {
+    font-weight: bold;
+}
+
+#RemoveWordButton {
+    margin-top: 0.5em;
+}
+
+#BibleVerse {
+    margin-top: 2em;
+    font-size: larger;
+    line-height: 2em;
+}
+
+body.body {
+    color: white;
+}
